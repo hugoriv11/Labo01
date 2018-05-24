@@ -10,5 +10,5 @@ package abstractfactory.oper;
  * @author Toshiba
  */
 public interface Operaciones {
-    public double Operacion(double a, double b);
+    double Operacion(double a, double b);
 }

@@ -5,10 +5,14 @@
  */
 package abstractfactory;
 
+import abstractfactory.conver.Convertir;
+import abstractfactory.oper.Operaciones;
+
 /**
  *
  * @author Toshiba
  */
 public interface AbstractFactory {
-    
+    Operaciones getOperaciones(String type);
+    Convertir getConvertir(String type);
 }
