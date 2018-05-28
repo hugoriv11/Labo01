@@ -20,13 +20,19 @@ public class OperacionesFactory implements AbstractFactory{
         switch(type){
             case "sumar":
                 return new Suma();
+            case "restar":
+                return new Resta();
+            case "multiplicar":
+                return new Multi();
+            case "dividir":
+                return new Dividir();
         }
         return null;
     }
 
     @Override
     public Convertir getConvertir(String type) {
-       
+       return null;
     }
 
 

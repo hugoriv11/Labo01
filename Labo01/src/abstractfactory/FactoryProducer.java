@@ -5,10 +5,21 @@
  */
 package abstractfactory;
 
+import abstractfactory.conver.ConvertirFactory;
+import abstractfactory.oper.OperacionesFactory;
+
 /**
  *
  * @author Toshiba
  */
 public class FactoryProducer {
-    
+    public static AbstractFactory getFactory(String type){
+        switch(type){
+            case "oper":
+                return new OperacionesFactory();
+            case "conver":
+                return new ConvertirFactory();
+        }
+        return null;
+    }
 }

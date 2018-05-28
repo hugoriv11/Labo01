@@ -5,6 +5,9 @@
  */
 package labo01;
 
+import abstractfactory.GUI.ventana;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Toshiba
@@ -16,6 +19,14 @@ public class Labo01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+                JFrame ventana=new JFrame("Mi ventana");
+        ventana.setContentPane(new ventana());
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setResizable(false);
+        ventana.pack();
+        ventana.setVisible(true);
+        ventana.setLocationRelativeTo(null);
+
     }
     
 }

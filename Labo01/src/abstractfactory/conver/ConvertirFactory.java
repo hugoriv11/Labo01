@@ -5,10 +5,27 @@
  */
 package abstractfactory.conver;
 
+import abstractfactory.AbstractFactory;
+import abstractfactory.oper.Operaciones;
+
 /**
  *
  * @author Toshiba
  */
-public class ConvertirFactory {
+public class ConvertirFactory implements AbstractFactory{
+
+    @Override
+    public Operaciones getOperaciones(String type) {
+        return null;
+    }
+
+    @Override
+    public Convertir getConvertir(String type) {
+        switch(type){
+            case "convertir binario":
+                return new Binario();
+        }
+        return null;
+    }
     
 }

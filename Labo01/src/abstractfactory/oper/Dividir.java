@@ -13,7 +13,7 @@ public class Dividir implements Operaciones{
 
     @Override
     public double Operacion(double a, double b) {
-        return a / b;
+        return a / b;//URGENTE hacer validacion cuando denominador es cero
     }
     
 }

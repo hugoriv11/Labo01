@@ -9,6 +9,11 @@ package abstractfactory.conver;
  *
  * @author Toshiba
  */
-public class Binario {
+public class Binario implements Convertir{
+
+    @Override
+    public int BinarioADecimal(int a, int b) {
+        return a*b;//Hacer operacion de convertir a binario URGENTE
+    }
     
 }
