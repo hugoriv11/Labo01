@@ -22,7 +22,7 @@ public class ConvertirFactory implements AbstractFactory{
     @Override
     public Convertir getConvertir(String type) {
         switch(type){
-            case "convertir binario":
+            case "binario":
                 return new Binario();
         }
         return null;

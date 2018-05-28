@@ -10,5 +10,5 @@ package abstractfactory.conver;
  * @author Toshiba
  */
 public interface Convertir {
-    int BinarioADecimal(int a, int b);
+    int Binario(int a, int b);
 }

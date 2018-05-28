@@ -12,7 +12,7 @@ package abstractfactory.conver;
 public class Binario implements Convertir{
 
     @Override
-    public int BinarioADecimal(int a, int b) {
+    public int Binario(int a, int b) {
         return a*b;//Hacer operacion de convertir a binario URGENTE
     }
     

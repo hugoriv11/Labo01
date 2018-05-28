@@ -19,7 +19,7 @@ public class Labo01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-                JFrame ventana=new JFrame("Mi ventana");
+        JFrame ventana=new JFrame("Calcu");
         ventana.setContentPane(new ventana());
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setResizable(false);
