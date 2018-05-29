@@ -22,7 +22,7 @@ public class AbstractFactoryDemo {
         
         factory = FactoryProducer.getFactory("conver");
         Convertir binario = factory.getConvertir("binario");
-        binario.Binario(11, 2);
+        binario.Binario(11);
         
         
     }

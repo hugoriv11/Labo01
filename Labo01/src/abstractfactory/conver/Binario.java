@@ -12,10 +12,13 @@ package abstractfactory.conver;
 public class Binario implements Convertir{
 
     @Override
-    public int Binario(int a, int b) {
-        return a*b;//Hacer operacion de convertir a binario URGENTE
-        
-        
+    public int Binario(int a) {
+        while(a >= 2){
+            if(a%2 == 0 || a%2 == 1){
+                return a%2;
+            }
+        }
+        return 0;
     }
     
 }

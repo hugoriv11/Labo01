@@ -13,7 +13,12 @@ public class Dividir implements Operaciones{
 
     @Override
     public double Operacion(double a, double b) {
-        return a / b;//URGENTE hacer validacion cuando denominador es cero
+        if(b != 0){
+            return a / b;//URGENTE hacer validacion cuando denominador es cero
+        }
+        else{
+            System.out.println("No se puede dividir entre cero");
+        }
+        return 0;
     }
-    
 }
