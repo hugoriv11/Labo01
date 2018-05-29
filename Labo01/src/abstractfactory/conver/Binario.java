@@ -14,6 +14,8 @@ public class Binario implements Convertir{
     @Override
     public int Binario(int a, int b) {
         return a*b;//Hacer operacion de convertir a binario URGENTE
+        
+        
     }
     
 }
